@@ -1,6 +1,6 @@
 .section {
   display: flex;
-  height:100%;
+  /* height:100%; */
   gap: 100px;
   padding: 0 100px;
 }
@@ -12,14 +12,20 @@
   margin: auto 0
 }
 
-.section div img {
+.section .profile img {
   position:absolute;
   /* height: 400px; */
   width: 270px;
   bottom: 10px
 }
 
-.aboutMeText {
+.aboutMeContext {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh
+}
+
+.aboutMeContext {
   flex: 1 1 65%;
   margin: auto 0;
 }
@@ -34,4 +40,12 @@
 
 .section div span {
   color: #008C8D;
+}
+.technologies {
+  display: flex;
+  height: 65px;
+}
+
+.section .aboutMeContext .technologies img {
+  width: 65px;
 }
