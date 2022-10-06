@@ -4,4 +4,18 @@
   position: absolute;
   width: 100vw;
   top: 33px;
+padding: 0 10px;
 }
+
+@media screen and (max-width: 752px) {
+    .nav {
+        flex-wrap: wrap;
+        gap:10px;
+    }
+    .nav div {
+        margin-bottom: 10px;
+        flex-basis: 45%;
+        font-size: 12px;
+        text-align: center;
+    }
+ }
