@@ -1,0 +1,37 @@
+.section {
+  display: flex;
+  height:100%;
+  gap: 100px;
+  padding: 0 100px;
+}
+
+.profile {
+  flex: 0 0 290px;
+  position:relative;
+  height: 375px;
+  margin: auto 0
+}
+
+.section div img {
+  position:absolute;
+  /* height: 400px; */
+  width: 270px;
+  bottom: 10px
+}
+
+.aboutMeText {
+  flex: 1 1 65%;
+  margin: auto 0;
+}
+
+.aboutMeText h2 {
+  font-size: 36px;
+}
+
+.aboutMeText h3 {
+  font-size: 16px;
+}
+
+.section div span {
+  color: #008C8D;
+}
