@@ -1,5 +1,5 @@
 import classes from './AboutMe.module.css'
-import profilePic from '../../assets/images/profile-picture/profile-cut-out.png'
+import profilePic from '../../assets/images/profile-picture/profile-cut-out.jpg'
 import reactMarioBlock from '../../assets/images/technologies/react-mario-block.png'
 
 import Card from '../UI/Card'
@@ -16,7 +16,7 @@ const AboutMe = () => {
                     <br />
                     <h3>My name is <span>Victor Nunez</span>.  I am a <span>Full Stack Web Developer</span> and I am currently located in <span>Livonia, Michigan</span>.</h3>
                     <br />
-                    <h3>I just recently earned a certificate form the <span>University of Michigan Coding Bootcamp course</span>.</h3>
+                    <h3>I just recently earned a certificate from the <span>University of Michigan Coding Bootcamp course</span>.</h3>
                     <br />
                     <h3>I have a passion for building challenging applications and learning new technologies.</h3>
                     <br />

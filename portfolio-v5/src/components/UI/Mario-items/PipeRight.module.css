@@ -1,0 +1,18 @@
+.rightPipe {
+  display: flex;
+  /* align-items: center; */
+  position:absolute;
+  top: -123px;
+  right: 0px;
+  height: 120px;
+}
+
+.rightPipe div {
+  background: url(../../../assets/images/pipe_pieces/pipe-base-open-from-left-side.jpg);
+  background-size: 8.2px;
+  align-self:center;
+  /* height:115px; */
+  height:95%;
+  background-repeat: repeat-x;
+  width:10vw;
+}
