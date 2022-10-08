@@ -2,3 +2,22 @@
 .link button:hover {
     cursor: pointer;
 }
+.orange {
+    background-color: #D0510C;
+    box-shadow: -5px -5px 0 0.5px white, 5px 5px 0 0.5px black;
+}
+
+.grey {
+    background-color: #7D7F81;
+    box-shadow: -5px -5px 0 0.5px white, 5px 5px 0 0.5px #414141;
+}
+
+.green {
+    background-color: #23AE0A;
+    box-shadow: -5px -5px 0 0.5px white, 5px 5px 0 0.5px black;
+}
+
+.blue {
+    background-color: #008C8D;
+    box-shadow: -5px -5px 0 0.5px white, 5px 5px 0 0.5px #414141;
+}

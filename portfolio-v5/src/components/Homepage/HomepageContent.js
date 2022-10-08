@@ -13,15 +13,15 @@ const HomepageContent = () => {
         <nav>
             <div>
                 <img src={mushroom} />
-                <button>ABOUT ME</button>
+                <button>Vn135766@gmail.com</button>
             </div>
             <div>
                 <img src={mushroomBlue} />
-                <button>PROJECTS</button>
+                <button>734-366-6061</button>
             </div>
             <div>
                 <img src={mushroomBlue} />
-                <button>CONTACT ME</button>
+                <button>Click <span>HERE</span> for my Resume</button>
             </div>
         </nav>
     </section>

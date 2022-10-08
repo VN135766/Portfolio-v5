@@ -1,5 +1,21 @@
-.ceiling {
+.underground__ceiling {
   background: url('../../assets/images/background-blocks/underground-cieling.jpg');
   height: 54px;
   position:relative;
 }
+.aboveground__ceiling {
+  background: none;
+  height: 54px;
+  position:relative;
+}
+
+.underwater__ceiling {
+  background: url('../../assets/images/background-blocks/underwater-floor.jpg');
+  height: 45px;
+  position:relative;
+}
+
+.boss__ceiling {
+  background: url('../../assets/images/background-blocks/boss-cieling.jpg');
+  height: 45px;
+  position:relative;

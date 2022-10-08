@@ -1,0 +1,38 @@
+.card {
+  background-color: #23AE0A;
+  box-shadow: -5px -5px 0 0.5px white, 5px 5px 0 0.5px black;
+}
+
+.card h2 {
+  font-size: 32px;
+  font-weight: lighter;
+}
+.projectList button {
+  font-size: 30px 
+}
+
+.projectDetailContainer {
+  display: flex;
+  gap: 10px;
+}
+
+.projectImage {
+  width: 50%;
+}
+
+.projectDetails {
+  display: flex;
+  flex-direction: column;
+  /* flex-basis: 50%; */
+  justify-content: space-between;
+}
+.projectDetails h3,
+.projectDetails li {
+  font-size: 20px;
+}
+
+.linkBlocks {
+  display: flex;
+  gap: 10px;
+  justify-self: flex-end;
+}

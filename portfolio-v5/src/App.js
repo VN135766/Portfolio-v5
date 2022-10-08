@@ -4,14 +4,15 @@ import Homepage from './components/Homepage/Homepage';
 import { PageContext } from './store/page-context'
 
 import ContactMe from './components/ContactMe/ContactMe'
+import Projects from './components/Projects/Projects'
 
 function App() {
-  const [pageSelection, setPageSelection] = useContext(PageContext)
+  const [pageSelection] = useContext(PageContext)
   return (
     <Fragment>
     {pageSelection === 'Home Page' && <Homepage />}
     {pageSelection === 'About Me' && <AboutMe />}
-    {pageSelection === 'About Me' && <AboutMe />}
+    {pageSelection === 'Projects' && <Projects />}
     {pageSelection === 'Contact Me' && <ContactMe />}
   </Fragment>
   );

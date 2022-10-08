@@ -9,6 +9,20 @@ const Anchor = () => {
     // const [selectedPage, setSelectedPage] = useState('Home Page');
     const [pageSelection, setPageSelection] = useContext(PageContext)
     console.log(pageSelection)
+    const cardColorHandler = () => {
+        switch (pageSelection) {
+            case 'Home Page':
+                return classes.orange;
+            case 'About Me':
+                return classes.blue;
+            case 'Projects':
+                return classes.green;
+            case 'Contact Me':
+                return classes.grey
+        }
+    }
+
+    console.log(cardColorHandler())
 
     const navigationHandler = (e) => {
         console.log(e.target.innerHTML)
@@ -16,10 +30,10 @@ const Anchor = () => {
     }
     return (
         <PageContextProvider>
-<Card className={classes.link}><button onClick={navigationHandler}>Home Page</button></Card>
-            <Card className={classes.link}><button onClick={navigationHandler}>About Me</button></Card>
-            <Card className={classes.link}><button onClick={navigationHandler}>Projects</button></Card>
-            <Card className={classes.link}><button onClick={navigationHandler}>Contact Me</button></Card>
+<Card className={cardColorHandler()}><button onClick={navigationHandler}>Home Page</button></Card>
+            <Card className={cardColorHandler()}><button onClick={navigationHandler}>About Me</button></Card>
+            <Card className={cardColorHandler()}><button onClick={navigationHandler}>Projects</button></Card>
+            <Card className={cardColorHandler()}><button onClick={navigationHandler}>Contact Me</button></Card>
             </PageContextProvider>
     )
 }
