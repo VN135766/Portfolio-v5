@@ -7,7 +7,7 @@ import Card from '../UI/Card'
 const AboutMeContent = () => {
     return (
         <section className={classes.section}>
-            <Card className={classes.profile}>
+            <Card className={`${classes.profile} ${classes.card}`}>
                 <img src={profilePic} alt="a portrait of Michael Klein" />
             </Card>
             <div className={classes.aboutMeContext}>

@@ -8,10 +8,10 @@ import Card from '../UI/Card'
 
 const AboutMe = () => {
     return (
-        <Background>
+<Background addClass={classes.underground__background}>
         <Nav />
         <AboutMeContent />
-        <Floor />
+        <Floor addClass={classes.underground__floor}/>
     </Background>
     )
 }

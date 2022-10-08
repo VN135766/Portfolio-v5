@@ -4,7 +4,7 @@ import PipeRight from './Mario-items/PipeRight';
 import Mario from './Mario-items/Mario'
 
 const Floor = (props) => {
-    return <div className={classes.floor}>
+    return <div className={`${classes.floor} ${props.addClass}`}>
         <PipeLeft />
         <Mario />
         <PipeRight />

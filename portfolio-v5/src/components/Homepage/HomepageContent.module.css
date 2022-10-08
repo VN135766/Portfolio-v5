@@ -1,0 +1,46 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:3vw;
+}
+
+.titleCard {
+  background-color: #D0510C;
+  box-shadow: -5px -5px 0 0.5px white, 5px 5px 0 0.5px black;
+  width: 35%;
+  padding: 20px
+}
+
+.titleCard h1 {
+  font-size: 40px;
+}
+
+.titleCard h2 {
+  font-size: 20px;
+}
+
+.section nav {
+  display: flex;
+  flex-direction: column;
+  gap:2vw;
+}
+
+.section nav div {
+  display: flex;
+  align-items: center;
+}
+.section nav button {
+  color:white;
+  font-size: 36px;
+}
+
+@media screen and (max-width:1128px) {
+  .titleCard {
+      width: 356px;
+  }
+  .section nav button {
+      font-size: 28px;
+  }
+
+}

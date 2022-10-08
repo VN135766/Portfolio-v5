@@ -4,6 +4,10 @@
   gap: 100px;
   padding: 0 5vw;
 }
+.card {
+  background-color: #008C8D;
+  box-shadow: -5px -5px 0 0.5px white, 5px 5px 0 0.5px #414141;
+}
 
 .profile {
   flex: 0 0 290px;
