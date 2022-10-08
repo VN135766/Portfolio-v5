@@ -1,0 +1,4 @@
+.link:hover,
+.link button:hover {
+    cursor: pointer;
+}

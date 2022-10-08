@@ -1,16 +1,14 @@
-import Background from './components/UI/Background'
-import Nav from './components/Nav/Nav'
+import React, { useContext } from 'react';
 import AboutMe from './components/AboutMe/AboutMe'
-import Floor from './components/UI/Floor'
+import PageContext from './store/page-context'
 
 function App() {
+  const pageCtx = useContext(PageContext)
+  console.log(pageCtx)
   return (
-
-    <Background>
-      <Nav />
+    <PageContext.Provider>
       <AboutMe />
-      <Floor />
-    </Background>
+      </PageContext.Provider>
   );
 }
 
