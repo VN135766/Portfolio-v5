@@ -1,7 +1,7 @@
 import React from 'react';
 
 const PageContext = React.createContext({
-    selectedPage: 'Home Page',
+  selectedPage: 'Contact Me',
     cardStyling() {
         switch (this.selectedPage) {
             case 'Home Page':

@@ -9,8 +9,9 @@ const Anchor = () => {
     const pageCtx = useContext(PageContext)
 
     const navigationHandler = (e) => {
-        setSelectedPage(e.target.innerText)
-        console.log(pageCtx)
+         // console.log(e.target.innerHTML)
+         setSelectedPage(e.target.innerHTML)
+         console.log(selectedPage)
     }
     return (
         <Fragment>
