@@ -1,21 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-const PageContext = React.createContext({
-  selectedPage: 'Contact Me',
-    cardStyling() {
-        switch (this.selectedPage) {
-            case 'Home Page':
-                return 'card-aboveground';
-            case 'About Me':
-                return 'card-underground';
-            case 'Projects':
-                return 'card-underwater'
-            case 'Contact Me':
-                return 'card-boss';
-            default:
-                return 'card-aboveground'
-        }
-    }
+export const PageContext = React.createContext({
+  pageSelection:'Home Page'
 });
 
-export default PageContext
+const PageContextProvider = (props) => {
+  const [pageSelection, setPageSelection] = useState('Home Page')
+  return (
+      <PageContext.Provider value={[pageSelection, setPageSelection]}>
+          {props.children}
+      </PageContext.Provider>
+  )
+}
+
+
+export default PageContextProvider
