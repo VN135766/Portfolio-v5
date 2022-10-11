@@ -17,8 +17,8 @@ To create a portfolio that achieves the following tasks:
 - ### [URL to Deployed Application](https://vn135766.github.io/Portfolio-v5/)
 - ### [URL to Github Repository](https://github.com/VN135766/Portfolio-v5)
 
-## Screenshot of Webpage
-![alt](./assets/images/project-screenshots/chrome-capture-2022-9-11.gif)
+## Gif of Webpage
+![alt](https://github.com/VN135766/Portfolio-v5/blob/main/src/assets/images/project-screenshots/chrome-capture-2022-9-11.gif)
 
 ## Acknowledgements
 All images were photoshopped out of images found on Google.
