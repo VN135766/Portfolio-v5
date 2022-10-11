@@ -1,0 +1,87 @@
+
+.card {
+    background-color: #23AE0A;
+    box-shadow: -5px -5px 0 0.5px white, 5px 5px 0 0.5px black;
+    /* min-width: 560px; */
+}
+
+.card h2 {
+    font-size: 32px;
+    font-weight: lighter;
+}
+.projectList button {
+    font-size: 30px 
+}
+
+.projectDetailContainer {
+    display: flex;
+    gap: 10px;
+}
+
+.projectImage {
+    width: 50%;
+}
+
+.projectDetails {
+    display: flex;
+    flex-direction: column;
+    /* flex-basis: 50%; */
+    justify-content: space-between;
+}
+.projectDetails h3,
+.projectDetails li {
+    font-size: 20px;
+}
+
+.linkBlocks {
+    display: flex;
+    gap: 10px;
+    justify-self: flex-end;
+}
+
+@media screen and (max-width:1020px) {
+    .projectDetailContainer {
+        min-width: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* .projectDetails {
+        min-width: 250px;
+    } */
+    .projectDetails h2{
+        font-size: 18px;
+    }
+    .projectDetails div,
+    .projectDetails h3,
+    .projectDetails ul li {
+        font-size: 14px;
+    }
+    .projectDetails div a img {
+        width: 40px;
+        height: 40px;
+    }
+    .projectDetailContainer {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-height: 876px) {
+    .projectImage {
+        display: none;
+    }
+}
+
+@media screen and (max-height: 732px) {
+    .projectDetails {
+        gap:5px;
+    }
+    .projectDetails h2{
+        font-size: 14px;
+    }
+    .projectDetails div,
+    .projectDetails h3,
+    .projectDetails ul li {
+        font-size: 10px;
+    }
+}

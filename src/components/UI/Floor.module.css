@@ -1,0 +1,12 @@
+.floor {
+    /* background: url('../../assets/images/background-blocks/underground-floor.jpg'); */
+    height: 96px;
+    position:relative;
+    z-index: 0;
+}
+
+@media screen and (max-width:654px) {
+    .hide {
+        display: none;
+    }
+}

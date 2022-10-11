@@ -1,0 +1,8 @@
+.boss__background {
+    background-color: black;
+}
+
+.boss__floor {
+    background: url('../../assets/images/background-blocks/boss-floor.jpg');
+    background-repeat:repeat-x;
+}

@@ -1,0 +1,45 @@
+.nav {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    width: 100vw;
+    top: 25px;
+    padding: 0 10px;
+}
+
+.underground__ceiling {
+    background: url('../../assets/images/background-blocks/underground-cieling.jpg');
+    height: 54px;
+    position:relative;
+}
+
+.aboveground__ceiling {
+    background: none;
+    height: 54px;
+    position:relative;
+}
+
+.underwater__ceiling {
+    background: url('../../assets/images/background-blocks/underwater-floor.jpg');
+    height: 47px;
+    position:relative;
+}
+
+.boss__ceiling {
+    background: url('../../assets/images/background-blocks/boss-cieling.jpg');
+    height: 45px;
+    position:relative;
+}
+
+@media screen and (max-width: 752px) {
+    .nav {
+        flex-wrap: wrap;
+        gap:10px;
+    }
+    .nav div {
+        margin-bottom: 10px;
+        flex-basis: 45%;
+        font-size: 12px;
+        text-align: center;
+    }
+ }

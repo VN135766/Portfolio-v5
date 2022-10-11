@@ -1,0 +1,105 @@
+
+.form {
+    display: flex;
+    flex-direction: column;
+    padding:10px;
+    gap: 15px;
+}
+
+.error {
+    color: rgb(165, 3, 3);
+    font-size: 16px;
+    text-align: center;
+}
+
+.form button {
+    background-color: rgb(27, 27, 27);
+    padding:5px 0;
+}
+
+.form div input,
+.form div textarea {
+    padding: 0 10px;
+}
+
+.alternateText {
+    display: none;
+}
+
+@media screen and (max-width: 1300px) {
+    .contactMeText h2 {
+        font-size: 20px;
+    }
+    .contactMeText h3 {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 958px) {
+    .section {
+        gap: 10px;
+    }
+    /* .contactMeText {
+        min-width: 266px;
+    } */
+    .card {
+        width:300px;
+    }
+    .form div label,
+    .form div input {
+        font-size: 12px;
+       width: 100%;
+    }
+    .form div textarea {
+        font-size: 12px;
+        width: 260px;
+    }
+}
+
+@media screen and (max-width: 752px) {
+    .section {
+        flex-wrap: wrap-reverse;
+        gap: 10px;
+    }
+    .contactMeText {
+        text-align: center;
+    }
+    .contactMeText h2 {
+        display: none;
+        text-align: center;
+    }
+    .alternateText {
+        display: block;
+        margin: 0 auto;
+    }
+    .card {
+        flex-basis: 100%;
+        padding: 5px;
+    }
+    .form div {
+        display: flex;
+        flex-flow:column wrap;
+        /* flex: 1 0 50%; */
+    }
+    .form div label,
+    .form div input,
+    .form div textarea {
+        font-size: 12px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .contactMeText h3 {
+        font-size: 8px;
+        flex-wrap: wrap;
+    }
+    .connectWithMeText {
+        font-size: 12px;
+        text-align: center;
+    }
+    /* .contactMeText div a img {
+        height: 30px;
+        width: 30px
+    } */
+}
