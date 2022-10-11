@@ -8,6 +8,10 @@ import githubBlock from '../../assets/images/contact-blocks/github-block.png'
 
 
 const ContactMeContent = () => {
+    const redirectToLinkedIn = () => {
+        window.location.href = 'https://www.google.com'
+        return null
+    }
     return (
         <section className={classes.section}>
             <div className={classes.contactMeText}>
@@ -16,9 +20,9 @@ const ContactMeContent = () => {
                     Click <span>HERE</span> for my resume. <br /><br />
                     Phone: 734-366-6061</h3>
                 <div>
-                    <img src={linkedInBlock} alt="linkedIn Logo" />
-                    <img src={emailBlock} alt="email Logo" />
-                    <img src={githubBlock} alt="github Logo" />
+                <a href="https://www.linkedin.com/in/vn135766/" target="_blank" rel="noopener noreferrer"><img src={linkedInBlock} alt="linkedIn Logo" /></a>
+                    <a href="mailto:vn135766@gmail.com" rel="noopener noreferrer"><img src={emailBlock} alt="email Logo" /></a>
+                    <a href="https://github.com/VN135766" target="_blank" rel="noopener noreferrer"><img src={githubBlock} alt="github Logo" /></a>
                 </div>
             </div>
             <Card className={classes.card}>

@@ -1,5 +1,5 @@
 import classes from './AboutMeContent.module.css'
-import profilePic from '../../assets/images/profile-picture/profile-cut-out.png'
+import profilePic from '../../assets/images/profile-picture/profile-cut-out.jpg'
 import reactMarioBlock from '../../assets/images/technologies/react-mario-block.png'
 
 import Card from '../UI/Card'
@@ -8,7 +8,7 @@ const AboutMeContent = () => {
     return (
         <section className={classes.section}>
             <Card className={`${classes.profile} ${classes.card}`}>
-                <img src={profilePic} alt="a portrait of Michael Klein" />
+                <img src={profilePic} alt="a portrait of Victor Nunez" />
             </Card>
             <div className={classes.aboutMeContext}>
                 <div className={classes.aboutMeText} >
