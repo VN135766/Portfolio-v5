@@ -13,7 +13,7 @@ const ContactMeContent = () => {
             <div className={classes.contactMeText}>
                 <h2 className={classes.connectWithMeText}>Connect with me!</h2>
                 <h3>Where you are an employer or a fellow developer, I would love to hear from you!<br /><br />
-                    Click <a href='https://1drv.ms/w/s!Alu3hTJoxVVUgnHE0J9Jo4kH0e7-?e=HIqnhi' target="_blank">HERE</a> for my resume. <br /><br />
+                    Click <a href='https://1drv.ms/w/s!Alu3hTJoxVVUgwAxmHcD8i9oCNXP?e=qCGPt8' target="_blank">HERE</a> for my resume. <br /><br />
                     Phone: 734-366-6061</h3>
                     <div>
                 <a href="https://www.linkedin.com/in/vn135766/" target="_blank" rel="noopener noreferrer"><img src={linkedInBlock} alt="linkedIn Logo" /></a>
